@@ -18,6 +18,22 @@ li {
     list-style: none;
 }
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.panel {
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    float: left;
+}
 
 /* ----Header Contents---- */
 
@@ -28,38 +44,66 @@ li {
 }
 
 .header {
+    border: solid rgb(59, 89, 152);
+
     /* Facebook color */
     background-color: rgb(59, 89, 152);
-    height: 150px;
+    height: 80px;
 
 }
 
 .header-logo {
     float: left;
-    font-size: 36px;
-    padding: 33px 40px;
+    font-size: 20px;
+    padding: 20px 40px;
+}
+
+.header-navi {
+    margin: 0 0 0 auto;
+
 }
 
 .header-list li{
-    float: left;
-    padding-left: 30px;
-
-
 } 
+
+.localize {
+}
+
+.localize .line {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.local-icon {
+    margin-left: 5px;
+    width: 40px;
+}
 
 
 /* ----Main Contents---- */
 
 .main {
     /* Twitter color */
-    height: 200px;
+    height: 100px;
 }
 
 
 /* ----Footer Contents---- */
 
 .footer {
+    color: rgb(187, 204, 245);
     /* Facebook color brighter */
     background-color: rgb(94, 123, 184);
-    height: 100px;
+    height: 50px;
+}
+
+.copyright {
+    float: left;
+    padding: 10px;
+
+}
+
+.footer-list li {
+    float: left;
+    padding: 10px;
+
 }
