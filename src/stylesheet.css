@@ -9,101 +9,79 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 255);
-    background-color: rgb(238, 241, 242);
     font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
 li {
     list-style: none;
 }
-
-.container {
+/* 
+#container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 8px 30px;
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
-}
+} */
 
-.panel {
-    text-align: center;
-    background-color: white;
+/* #panel {
     color: black;
-    margin: 5px;
-    float: left;
+    display: flex;
+} */
+
+
+/* ----header Contents---- */
+
+header {
+    color: aliceblue;
+    background-color: rgb(66, 112, 209);
+    height: 40px;
+
 }
 
-/* ----Header Contents---- */
-
-.banner {
-    /* Twitter color */
-    background-color: rgb(85, 172, 238);
-    height: 25px;
-}
-
-.header {
-    border: solid rgb(59, 89, 152);
-
-    /* Facebook color */
-    background-color: rgb(59, 89, 152);
-    height: 80px;
-
+.header-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
-    float: left;
-    font-size: 20px;
-    padding: 20px 40px;
-}
-
-.header-navi {
-    margin: 0 0 0 auto;
+    width: 150px;
+    min-width: 150px;
+    border: solid 0.5px aliceblue;
 
 }
 
-.header-list li{
-} 
-
-.localize {
+.header-navi ul {
+    display: flex;
 }
 
-.localize .line {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-.local-icon {
+.header-navi li {
     margin-left: 5px;
-    width: 40px;
+    padding: 10px 15px;
+    border: solid 0.5px aliceblue;
+
 }
 
 
 /* ----Main Contents---- */
 
-.main {
+main {
     /* Twitter color */
-    height: 100px;
+    height: 1000px;
 }
 
 
 /* ----Footer Contents---- */
 
-.footer {
-    color: rgb(187, 204, 245);
-    /* Facebook color brighter */
+footer {
     background-color: rgb(94, 123, 184);
-    height: 50px;
 }
 
 .copyright {
-    float: left;
-    padding: 10px;
-
-}
-
-.footer-list li {
-    float: left;
-    padding: 10px;
+    color: aliceblue;
+    line-height: 50px;
+    font-size: 12px;
+    padding-left: 30px;
+    min-width: 250px;
 
 }
