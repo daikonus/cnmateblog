@@ -3,28 +3,33 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>CNmate Blog</title>
-		<link rel="stylesheet" href="src/stylesheet.css">
+        <link rel="stylesheet" href="src/stylesheet.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	</head>
 	<body>
         <header>
-            <div class="header-wrapper">
-                <div class="header-logo">
-                    header-logo
-                </div>
-                <div class="header-navi">
-                    <ul>
-                        <li class="profile">About</li>
-                        <li class="post">Blog</li>
-                        <li class="tag">Tag</li>
-                        <li class="twitter">twitter</li>
-                        <li class="github">GitHub</li>
-                    </ul>
-                </div>
-                <div class="localize">
-                    <span class="line"></span>
-                    <img class="local-icon" src="assets\image.svg" alt="">
-                    <!-- <svg class="local-icon" viewBox="0 0 50 50" style="flex-grow: 0; flex-shrink: 0;"></svg> -->
-                </div>
+            <div class="top-wrapper">
+                <div class="container">
+                    <div class="header-logo">
+                        header-logo
+                    </div>
+                    <div class="btn-wrapper">
+                        <a class="btn profile" href="#">About</a>
+                        <a class="btn post" href="#">Blog</a>
+                        <a class="btn tag" href="#">Tag</a>
+                        <a class="btn twitter" href="#">
+                            <span class="fa fa-twitter"></span>
+                            Twitter
+                        </a>
+                        <a class="btn github" href="#">GitHub</a>    
+                    </div>
+                    <div class="localize">
+                        <span class="line"></span>
+                        <img border="1" src="assets\image.png" width="30" height="30" alt="image" title="image">
+                        <!-- <img class="local-icon" src="assets\image.svg" alt=""> -->
+                        <!-- <svg class="local-icon" viewBox="0 0 50 50" style="flex-grow: 0; flex-shrink: 0;"></svg> -->
+                    </div>
+                </div>    
             </div>
         </header>            
         <main>

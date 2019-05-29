@@ -4,61 +4,93 @@
 
 /* ----Base Design---- */
 
-html, body {
-    width: 100%;
-    height: 100%;
+body {
     margin: 0;
-    padding: 0;
-    font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
-}
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
 
-li {
-    list-style: none;
-}
-/* 
-#container {
-    width: 100%;
-    padding: 8px 30px;
-    margin-right: auto;
-    margin-left: auto;
-    box-sizing: border-box;
-} */
 
-/* #panel {
-    color: black;
-    display: flex;
-} */
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
 
 /* ----header Contents---- */
 
-header {
-    color: aliceblue;
-    background-color: rgb(66, 112, 209);
-    height: 40px;
+.top-wrapper {
+    padding: 15px 0 10px 0;
+    /* background-image: url(https://prog-8.com/images/html/advanced/top.png); */
+    background-color: rgb(13, 108, 218);
+    background-size: cover;
+    color: white;
+    opacity: 0.7;
 
-}
-
-.header-wrapper {
-    display: flex;
-    align-items: center;
+  
 }
 
 .header-logo {
-    width: 150px;
+    width: 11px;
     min-width: 150px;
     border: solid 0.5px aliceblue;
+    display: inline-block;
 
 }
 
-.header-navi ul {
-    display: flex;
+header .btn-wrapper {
+    margin: 0px 0px 0px 30px;
+    display: inline-block;
+
 }
 
-.header-navi li {
-    margin-left: 5px;
-    padding: 10px 15px;
-    border: solid 0.5px aliceblue;
+header .btn {
+    padding:8px 24px;
+    color:white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+
+}
+
+header .btn:hover {
+    opacity:1;
+}
+  
+header .profile {
+    background-color: rgb(7, 86, 175);
+}
+
+header .post {
+    background-color: rgb(7, 86, 175);
+}
+
+header .tag {
+    background-color: rgb(7, 86, 175);
+}
+
+header .twitter {
+    background-color: rgb(7, 86, 175);
+}
+
+header .github {
+    background-color: rgb(7, 86, 175);
+}
+
+.fa {
+    margin-right:5px;
+}
+
+header .line {
+    width: 2px;
+    height: 14px;
+    border-radius: 1px;
+    background-color: hsla(0,0%,100%,.2);
+    margin-right: 12px;
+}
+
+.localize {
+    display: inline-block;
 
 }
 
